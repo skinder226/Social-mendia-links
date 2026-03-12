@@ -4,8 +4,8 @@ import Image from "next/image"
 import { useState } from "react"
 
 const profile = {
-  name: "Fasil Ali",
-  bio: "Full Stack Developer in Progress",
+  name: "Skinder OP",
+  bio: "Full Stack Developer",
   tagline: "Building projects & learning modern web tech",
   profileImage: "/profile.jpg",
   theme: "dark"
@@ -22,21 +22,21 @@ const links = [
   {
     id: 4,
     name: "LinkedIn",
-    url: "#",
+    url: "https://www.linkedin.com/in/skinder-op-9944753b5",
     icon: "💼",
     color: "from-blue-500 to-blue-600"
   },
   {
     id: 5,
     name: "Instagram",
-    url: "#",
-    icon: "📸",
+      url: "https://www.instagram.com/skinderop/",
+      icon: "📸",
     color: "from-pink-500 to-orange-500"
   },
   {
     id: 6,
     name: "Twitter",
-    url: "#",
+    url: "https://x.com/skinder_al32597",
     icon: "𝕏",
     color: "from-gray-800 to-gray-900"
   }
@@ -44,9 +44,9 @@ const links = [
 
 const socialLinks = [
   { icon: "🔗", label: "GitHub", url: "https://github.com/skinder226" },
-  { icon: "💼", label: "LinkedIn", url: "#" },
-  { icon: "📸", label: "Instagram", url: "#" },
-  { icon: "𝕏", label: "Twitter", url: "#" }
+  { icon: "💼", label: "LinkedIn", url: "https://www.linkedin.com/in/skinder-op-9944753b5" },
+  { icon: "📸", label: "Instagram", url: "https://www.instagram.com/skinderop/" },
+  { icon: "𝕏", label: "Twitter", url: "https://x.com/skinder_al32597" }
 ]
 
 export default function Home() {
@@ -69,7 +69,7 @@ export default function Home() {
             <div className="relative mb-5">
               <div className="absolute inset-0 rounded-full bg-linear-to-r from-cyan-300 to-blue-400 blur-lg opacity-60" />
               <Image
-                src={profile.profileImage}
+                src="https://avatars.githubusercontent.com/u/227861829?v=4"
                 width={116}
                 height={116}
                 className="relative rounded-full border-4 border-white/20 object-cover"
