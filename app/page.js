@@ -7,7 +7,7 @@ const profile = {
   name: "Skinder OP",
   bio: "Full Stack Developer",
   tagline: "Building projects & learning modern web tech",
-  profileImage: "/profile.jpg",
+  profileImage: "https://avatars.githubusercontent.com/u/227861829?v=4",
   theme: "dark"
 }
 
