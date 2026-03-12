@@ -12,7 +12,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Fasil Ali - MyLinks",
+  title: "Skinder OP - MyLinks",
   description: "Check out all my links in one place. Portfolio, projects, social media and more.",
 };
 
