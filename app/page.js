@@ -68,7 +68,7 @@ export default function Home() {
           <div className="flex flex-col items-center">
             <div className="relative mb-5">
               <div className="absolute inset-0 rounded-full bg-linear-to-r from-cyan-300 to-blue-400 blur-lg opacity-60" />
-              <Image
+              <img
                 src="https://avatars.githubusercontent.com/u/227861829?v=4"
                 width={116}
                 height={116}
