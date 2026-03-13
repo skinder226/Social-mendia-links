@@ -51,6 +51,11 @@ const links = [
 
 const socialLinks = [
   { icon: "🔗", label: "GitHub", url: "https://github.com/skinder226" },
+    {
+    label: "YouTube",
+    url: "https://www.youtube.com/@SkinderOP",
+    icon: "▶️"
+  },
   { icon: "💼", label: "LinkedIn", url: "https://www.linkedin.com/in/skinder-op-9944753b5" },
   { icon: "📸", label: "Instagram", url: "https://www.instagram.com/skinderop/" },
   { icon: "𝕏", label: "Twitter", url: "https://x.com/skinder_al32597" }
