@@ -19,6 +19,13 @@ const links = [
     icon: "🔗",
     color: "from-gray-600 to-gray-700"
   },
+    {
+    id: 1,
+    name: "YouTube",
+    url: "https://www.youtube.com/@SkinderOP",
+    icon: "▶️",
+    color: "from-gray-600 to-gray-700"
+  },
   {
     id: 4,
     name: "LinkedIn",
